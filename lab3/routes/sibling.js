@@ -4,7 +4,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function (req, res) {
-    res.render('index', { name : 'Darpen' , comment : 'I am Programmer' });
+    res.render('sibling', { name: 'BRO' , comment: 'He is very irritating' });
 });
 
 module.exports = router;
